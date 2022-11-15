@@ -1,5 +1,5 @@
 
-var socket = io.connect('localhost:8080');
+var socket = io.connect('localhost:3000');
 
 var notificaciones = [];
 var usuarios = [];
