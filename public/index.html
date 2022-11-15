@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Chat Hosteado</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <div id="sidebar"></div>
+    <div id="primary">
+        <div id="log">
+            <div id="mensajeriauwu"></div>
+        </div>
+        
+        <div id="composer">
+          <label for="" id="Usuario">Usuario</label><br>
+          <input type="text" id="usuario" name="usuario"><br>
+          <div id="escribiendo"></div>
+          Mensaje<br>
+          <input type="text" id="mensaje" name="mensaje"><br><br>
+          <button id="enviado" name="enviado" onClick="mensajeria()">Enviar mensaje</button>
+          
+        </div>
+    </div>
+
+
+
+
+    
+    
+    
+    
+    
+    <br>
+    
+    
+    
+
+    
+    <script src="js/socket.io.js"></script>
+    <script src="js/logica.js" charset="utf-8"></script>
+    
+    
+  </body>
+</html>
