@@ -1,5 +1,5 @@
 
-var socket = io.connect(`0.0.0.0:${PORT}`);
+var socket = io.connect();
 
 var notificaciones = [];
 var usuarios = [];
